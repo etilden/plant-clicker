@@ -2,7 +2,98 @@
   text-align: center;
 }
 
-.App-logo {
+.content {
+  display: flex;
+  background-color: rgb(228, 165, 140);
+}
+
+.resources {
+  float: left;
+}
+
+.plant {
+  float: right;
+  margin: 2vw;
+  padding-bottom: 0%;
+}
+
+table {
+  margin: 5vw;
+  width: 50vw;
+}
+
+thead {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.row {
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+}
+
+tr {
+  display: flex;
+  background-color: lightpink;
+  margin: 5%;
+}
+
+.left {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.right {
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin: 2%
+}
+
+button {
+  width: 95%;
+  background-color: rgb(252, 191, 201);
+  border: 1px solid lightcoral;
+  padding: 5%;
+  margin: 1%;
+}
+
+.theBasics {
+  border: 5px solid lightcoral;
+  background-color: rgb(250, 159, 159);
+  margin: 5%;
+}
+
+.growth {
+  border: 5px solid lightcoral;
+  background-color: rgb(250, 159, 159);
+  margin: 5%;
+}
+
+td {
+  font-size: large;
+}
+
+.header {
+  font-size: 150%;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+canvas {
+  width: 100%; 
+  height: 80%; 
+  border: 1px;
+  margin-top: 17%;
+  margin-right: 10%;
+  background-color: whitesmoke;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +126,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
